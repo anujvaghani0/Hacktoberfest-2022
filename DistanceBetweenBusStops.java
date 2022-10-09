@@ -2,7 +2,7 @@ package Arrays;
 
 public class DistanceBetweenBusStops {
     public static void main(String[] args) {
-        int[] d = {8, 11, 6, 7, 10, 11, 2};
+        int[] d = {8, 11, 6, 7, 12,13,14};
         System.out.println(distanceBetweenBusStops(d, 0, 3));
     }
 
