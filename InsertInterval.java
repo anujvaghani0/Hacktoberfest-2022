@@ -6,7 +6,7 @@ import java.util.List;
 
 public class InsertInterval {
     public static void main(String[] args) {
-        int[][] ans = {{1, 2}, {3, 5}, {6, 7}, {8, 10}, {12, 16}};
+        int[][] ans = {{1, 2}, {3, 5}, {7,8}, {8, 12}, {12, 16}};
         int[] ans2 = {4, 8};
         System.out.println(Arrays.deepToString(insert(ans, ans2)));
     }
