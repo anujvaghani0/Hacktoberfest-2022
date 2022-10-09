@@ -18,7 +18,7 @@ public class ArmstrongNumber {
             int size=size(num);
             while (temp != 0) {
                 int digit = temp % 10;
-                sum = sum +(int) (Math.pow(digit, size));
+                sum =(int) (Math.pow(digit, size))+sum;
                 temp = temp / 10;
             }
             if (sum == num) {
@@ -27,9 +27,9 @@ public class ArmstrongNumber {
         }
     }
     public static int size(int n){
-        int leg=0;
+        int length=0;
         while(n!=0){
-            leg++;
+            length++;
             n=n/10;
         }
         return leg;
