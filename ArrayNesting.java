@@ -2,7 +2,7 @@ package Arrays;
 
 public class ArrayNesting {
     public static void main(String[] args) {
-        int[] nums = {5, 4, 0, 3, 1, 6, 2};
+        int[] nums = {5, 4, 0, 3, 1, 2,5,6};
         System.out.println(arrayNesting(nums));
     }
 
