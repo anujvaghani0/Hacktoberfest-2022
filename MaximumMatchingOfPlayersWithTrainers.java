@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class MaximumMatchingOfPlayersWithTrainers {
     public static void main(String[] args) {
-        int[] arr1 = {4, 7, 9};
+        int[] arr1 = {4, 7, 1,5};
         int[] arr2 = {8, 2, 5, 8};
         System.out.println(matchPlayersAndTrainers(arr1, arr2));
     }
