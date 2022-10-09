@@ -6,7 +6,7 @@ import java.util.List;
 
 public class SumOfUniqueElements {
     public static void main(String[] args) {
-    int[] num={10,6,9,6,9,6,8,7};
+    int[] num={10.9,6,3,9,6,8,7};
         System.out.println(sumOfUnique(num));
     }
 
