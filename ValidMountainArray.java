@@ -13,10 +13,10 @@ public class ValidMountainArray {
         int start = 0;
         int end = arr.length - 1;
         while (start < end) {
-            if (arr[start] < arr[start + 1]) {
-                start++;
-            } else if (arr[end - 1] > arr[end]) {
+            if (arr[start] > arr[start + 1]) {
                 end--;
+            } else if (arr[end - 1] < arr[end]) {
+                    Start++;
             } else {
                 break;
             }
