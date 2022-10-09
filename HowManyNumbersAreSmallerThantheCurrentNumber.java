@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class HowManyNumbersAreSmallerThantheCurrentNumber {
     public static void main(String[] args) {
-        int[] arr={8,1,2,2,3};
+        int[] arr={8,4,5,6,9};
         int[] ans=smallerNumbersThanCurrent(arr);
         System.out.println(Arrays.toString(ans));
     }
