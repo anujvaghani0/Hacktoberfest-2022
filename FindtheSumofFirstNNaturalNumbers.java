@@ -2,7 +2,7 @@ package Arrays;
 
 public class FindtheSumofFirstNNaturalNumbers {
     public static void main(String[] args) {
-        System.out.println(naturalNumber(10));
+        System.out.println(naturalNumber(26));
     }
     public static int naturalNumber(int n){
         int sum=0;
