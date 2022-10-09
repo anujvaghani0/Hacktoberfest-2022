@@ -2,7 +2,7 @@ package Arrays;
 
 public class MinMaxGame {
     public static void main(String[] args) {
-        int[] arr = {1, 3, 5, 2, 4, 8, 2, 2};
+        int[] arr = {1, 3, 5,10,56,8,4,7};
         System.out.println(minMaxGame(arr));
     }
 
