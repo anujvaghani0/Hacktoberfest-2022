@@ -2,7 +2,7 @@ package Arrays;
 
 public class ValidMountainArray {
     public static void main(String[] args) {
-        int[] arr = {2, 0, 2};
+        int[] arr = {1,2,5,2,1};
         System.out.println(validMountainArray(arr));
     }
 
