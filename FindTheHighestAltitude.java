@@ -4,7 +4,7 @@ package Arrays;
 
 public class FindTheHighestAltitude {
     public static void main(String[] args) {
-        int[] gain = {-4,-3,-2,-1,4,3,2};
+        int[] gain = {-4,-3,-2,-1,9,6,2};
         System.out.println(largestAltitude(gain));
     }
 
