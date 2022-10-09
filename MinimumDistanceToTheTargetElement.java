@@ -4,7 +4,7 @@ package Arrays;
 
 public class MinimumDistanceToTheTargetElement {
     public static void main(String[] args) {
-        int[] nums = {1, 5, 3, 4, 5};
+        int[] nums = {6,8,9,5,12,36};
         System.out.println(getMinDistance(nums, 5, 2));
     }
 
