@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class ArrayPartition {
     public static void main(String[] args) {
-        int[] ans = {6, 2, 6, 5, 5,6,3};
+        int[] ans = {6, 2, 6, 5,6,3,5,6,4};
         System.out.println(arrayPairSum(ans));
     }
 
