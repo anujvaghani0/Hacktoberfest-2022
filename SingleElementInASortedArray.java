@@ -2,7 +2,7 @@ package Arrays;
 
 public class SingleElementInASortedArray {
     public static void main(String[] args) {
-        int[] nums = {1, 1, 3, 3, 4, 4, 8, 8, 9};
+        int[] nums = {1, 1, 3, 3, 6,8,9, 8, 8, 9};
         System.out.println(singleNonDuplicate(nums));
     }
 
