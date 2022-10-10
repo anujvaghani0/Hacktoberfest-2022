@@ -2,7 +2,7 @@ package Arrays;
 
 public class MonotonicArray {
     public static void main(String[] args) {
-    int[] nums={1,2,3,3,2};
+    int[] nums={1,5,6,5,4};
         System.out.println(isMonotonic(nums));
     }
 
