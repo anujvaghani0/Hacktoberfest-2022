@@ -2,7 +2,7 @@ package Arrays;
 
 public class countDistinctElementInAnArray {
     public static void main(String[] args) {
-        int arr[] = {10, 30, 40, 20, 10, 20, 50, 10};
+        int arr[] = {10, 30, 40, 20, 10, 20, 60,5,98};
         System.out.println(count(arr));
     }
 
