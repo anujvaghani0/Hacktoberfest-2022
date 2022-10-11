@@ -2,7 +2,7 @@ package Arrays;
 
 public class ThreeConsecutiveOdds {
     public static void main(String[] args) {
-    int[] arr={1,2,34,3,4,5,7,23,12};
+    int[] arr={1,2,34,3,4,5,7,5,6};
         System.out.println(threeConsecutiveOdds(arr));
     }
 
