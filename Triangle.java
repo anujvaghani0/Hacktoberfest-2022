@@ -6,7 +6,7 @@ import java.util.List;
 public class Triangle {
     public static void main(String[] args) {
 //    List<Integer>  list= Arrays.asList(1,2,3);
-//    List<Integer>  list2= Arrays.asList(1,2,3);
+   List<Integer>  list2= Arrays.asList(1,2,5,6);
 //    List<List<Integer>> ans=list2+list;
     }
 
