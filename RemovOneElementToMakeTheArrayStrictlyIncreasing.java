@@ -2,7 +2,7 @@ package Arrays;
 
 public class RemovOneElementToMakeTheArrayStrictlyIncreasing {
     public static void main(String[] args) {
-        int[] nums = {2,22,2};
+        int[] nums = {2,22,2,25};
         System.out.println(canBeIncreasing(nums));
     }
 
