@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class RelativeSortArray {
     public static void main(String[] args) {
-        int[] arr1 = {2, 3, 1, 3, 2, 4, 6, 19, 9, 2, 7};
+        int[] arr1 = {2, 3, 1, 3, 2, 4, 6, 19, 12, 2, 7};
         int[] arr2 = {2, 1, 4, 3, 9, 6};
         System.out.println(Arrays.toString(relativeSortArray(arr1, arr2)));
     }
