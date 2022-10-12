@@ -23,6 +23,6 @@ public class MoveZeroes {
             nums[j] = 0;
             j++;
         }
-//        System.out.println(Arrays.toString(nums));
+System.out.println(Arrays.toString(nums));
     }
 }
