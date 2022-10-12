@@ -9,7 +9,8 @@ public class ArmstrongNumber {
         int m=sc.nextInt();
        Armstrong(l,m);
     }
-
+ // Function to check whether the given number is
+    // Armstrong number or not
     public static void Armstrong(int low, int high) {
         for (int num = low; num <= high; num++) {
             int temp;
@@ -26,6 +27,7 @@ public class ArmstrongNumber {
             }
         }
     }
+      /* Function to calculate order of the number */
     public static int size(int n){
         int length=0;
         while(n!=0){
