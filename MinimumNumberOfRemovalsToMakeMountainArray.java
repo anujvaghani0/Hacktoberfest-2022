@@ -2,7 +2,7 @@ package Arrays;
 
 public class MinimumNumberOfRemovalsToMakeMountainArray {
     public static void main(String[] args) {
-        int[] nums = {4, 10, 2, 1, 1, 5,6,8};
+        int[] nums = {1, 10, 2, 1, 1, 5,6,8};
         System.out.println(minimumMountainRemovals(nums));
     }
 
