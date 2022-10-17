@@ -2,7 +2,7 @@ package Arrays;
 
 public class MinimumPathSum {
     public static void main(String[] args) {
-        int[][] ans = {{1, 2, 3}, {4, 5, 6}, {10,11,12}};
+        int[][] ans = {{4, 2, 3}, {4, 5, 6}, {10,11,12}};
         int ans1 = minPathSum(ans);
         System.out.println(ans1);
     }
