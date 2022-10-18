@@ -2,7 +2,7 @@ package Arrays;
 
 public class MaxConsecutiveOnes {
     public static void main(String[] args) {
-        int[] arr = {2, 1, 0, 1,1,1,1,1,1};
+        int[] arr = {1, 1, 0, 1,1,1,1,1,1};
         System.out.println(findMaxConsecutiveOnes(arr));
     }
 
