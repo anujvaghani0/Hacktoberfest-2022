@@ -2,7 +2,7 @@ package Arrays;
 
 public class FindClosestNumberToZero {
     public static void main(String[] args) {
-        int[] nums = {2, 1,1,5, -1, 100000};
+        int[] nums = {11, 1,1,5, -1, 100000};
         System.out.println(findClosestNumber(nums));
     }
 
