@@ -2,7 +2,7 @@ package Arrays;
 
 public class MinimumTimeVisitingAllPoints {
     public static void main(String[] args) {
-        int[][] ans = {{1, 1}, {3, 4}, {-1, 0}};
+        int[][] ans = {{2, 1}, {3, 4}, {-1, 0}};
         System.out.println(minTimeToVisitAllPoints(ans));
     }
 
