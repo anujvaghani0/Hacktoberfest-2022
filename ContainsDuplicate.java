@@ -2,7 +2,7 @@ package Arrays;
 
 public class ContainsDuplicate {
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 1};
+        int[] arr = {4, 2, 3, 1};
         System.out.println(containsDuplicate(arr));
     }
 
