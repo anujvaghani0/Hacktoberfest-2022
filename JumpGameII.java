@@ -2,7 +2,7 @@ package Arrays;
 
 public class JumpGameII {
     public static void main(String[] args) {
-        int[] nums = {2,5,6,8,9};
+        int[] nums = {5,5,6,8,9};
         System.out.println(jump(nums));
     }
 
