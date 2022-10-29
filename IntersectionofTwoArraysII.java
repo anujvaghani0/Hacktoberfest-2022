@@ -6,7 +6,7 @@ import java.util.Arrays;
 public class IntersectionofTwoArraysII {
 
     public static void main(String[] args) {
-        int[] nums = {2, 3, 4, 2, 5, 6, 7};
+        int[] nums = {2, 3, 5, 2, 5, 6, 7};
         int[] nums1 = {2, 2, 3};
         int[] ans = intersect(nums, nums1);
         System.out.println(Arrays.toString(ans));
