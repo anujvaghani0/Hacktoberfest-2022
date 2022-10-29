@@ -3,7 +3,7 @@ package Arrays;
 public class RemoveElement {
     public static void main(String[] args) {
     int[] nums={3,2,4,5,1};
-    int target=3;
+    int target=9;
         System.out.println(removeElement(nums,target));
     }
 
