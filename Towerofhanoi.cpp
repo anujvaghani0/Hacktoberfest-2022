@@ -1,29 +1,23 @@
+//c++ program to implement tower of hanoi problem
 #include<iostream>
 using namespace std;
 
-//tower of HANOI function implementation
-void TOH(int n,char Sour, char Aux,char Des)
-{ 
-	if(n==1)
-	{
-		cout<<"Move Disk "<<n<<" from "<<Sour<<" to "<<Des<<endl;
-		return;
-	}
-	
-	TOH(n-1,Sour,Des,Aux);
-	cout<<"Move Disk "<<n<<" from "<<Sour<<" to "<<Des<<endl;
-	TOH(n-1,Aux,Sour,Des);
+//recursive funtion
+void TowerOfHanoi(int num,char A,char B,char C){
+  if(num>0){
+    TowerOfHanoi(num-1, A, C, B);
+    cout<<"Move a disk "<<num<<" from "<<" "<<A<<" to"<<" "<<C<<endl;
+    TowerOfHanoi( num-1, B, A, C);
+  }
 }
 
-//main program
-int main()
-{ 
-	int n;
-	
-	cout<<"Enter no. of disks:";	
-	cin>>n;
-	//calling the TOH 
-	TOH(n,'A','B','C');
-	
-	return 0;
+//main funtion
+int main(){
+  int numOfDisk;
+  cout<<"Enter the no. of disks"<<endl;
+  cin>>numOfDisk;
+  
+  //calling recursive funtion
+  TowerOfHanoi(numOfDisk,'A','B','C');//A is the source rod , C is destination rod ,B is auxiliary rod
+  cout<<endl;
 }
