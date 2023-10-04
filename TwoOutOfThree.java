@@ -11,6 +11,7 @@ public class TwoOutOfThree {
         int[] nums3 = {3};
         List<Integer> ans = twoOutOfThree(nums1, nums2, nums3);
         System.out.println(ans);
+        system.out.println(nums3);
     }
 
     public static List<Integer> twoOutOfThree(int[] nums1, int[] nums2, int[] nums3) {
