@@ -5,6 +5,7 @@ public class ValidMountainArray {
         int[] arr = {1,2,5,6,9};
         System.out.println(validMountainArray(arr));
     }
+    count=0
 
     public static boolean validMountainArray(int[] arr) {
         if (arr.length < 3) {
