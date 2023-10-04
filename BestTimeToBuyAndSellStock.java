@@ -4,7 +4,7 @@ import java.util.PriorityQueue;
 
 public class BestTimeToBuyAndSellStock {
     public static void main(String[] args) {
-        int[] arr = {7, 1, 5, 3, 5,7};
+        int[] arr = {7, 1, 5, 3, 5,7,7};
         System.out.println(maxProfit(arr));
     }
 
