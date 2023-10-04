@@ -1,5 +1,9 @@
 package Arrays;
+import math
 
+public static int power(int a){
+    return math.power(a,a);
+}
 public class ArrayNesting {
     public static void main(String[] args) {
         int[] nums = {5, 4, 0, 3, 1, 2,5,6};
